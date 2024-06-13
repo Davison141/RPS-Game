@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1">
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="header">
+                    <h1>Let's Play Rock, Paper, Scissors!</h1>
+                </div>
+                <div class="game-rules">
+                    <details>
+                        <summary>Game rules</summary>
+                        <p>
+                            Rock destroys Scissors, <br>
+                            Paper wraps Rock, <br>
+                            Scissors cuts Paper. <br>
+                            First player to get to 3 wins.
+                        </p>
+                    </details>
+                </div>
+                <div class="score-con">
+                    <strong
+          >Player Score: <span class="score" id="player-score">0</span></strong
+        >
+        <strong
+          >Computer Score:
+          <span class="score" id="computer-score">0</span></strong>
+                </div>
+                <section id="choose" class="choose">
+                    <p>Choose an option:</p>
+                <div class="option-div">
+                    <button id="rock-btn" class="btn"><img src="./OIP.jpg" alt="A rock picture" width="40" ></button>
+                    <button id="paper-btn" class="btn"><img src="./R.jpg" alt="A paper picture" width="40" ></button>
+                    <button id="scissors-btn" class="btn"><img src="./R (2).jpg" alt="A scissors picture" width="40"></button>
+                </div>
+                </section>
+                <div id="round-result" class="rr"></div>
+                <div id="display-result" class="dr"></div>
+                <button id="reset-btn" class="rb hidden">Restart</button>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

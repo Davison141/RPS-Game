@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+body {
+    width: 100%;
+    background-color: hsl(240, 30%, 20%);
+}
+
+.container {
+    text-align: center;
+}
+.header {
+    font-family: Arial, Helvetica;
+    margin: 1.8em 0em 4em 0em;
+    font-size: 0.54rem;
+    color: hsl(0, 0%, 100%);
+    
+}
+.game-rules {
+    margin: 0em 5em 1em 5em;
+}
+details {
+  padding: 4px;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+}
+summary {
+  background-color: hsl(200, 90%, 30%);
+  color: hsl(0, 0%, 100%);
+  padding: 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+details p {
+    font-family: monospace;
+    font-weight: 600;
+}
+.score-con {
+    display: flex;
+    justify-content: space-around;
+    color: hsl(0, 0%, 100%);
+    margin: 2em 0em 3em 0em;;
+    font-family: monospace;
+}
+.score {
+    font-weight: 500;
+    
+}
+.btn-div {
+    margin-bottom: 5em;
+}
+.btn {
+        cursor: pointer;
+        margin: 15px;
+}
+.dr {
+    color: #e4e4e4;
+    background-color: transparent;
+    min-width: 50px;
+    margin: 0em 2.4em 2em 3em;
+    padding: 0.3em;
+    font-family: monospace, sans-serif;
+}
+.rb {
+    width: 8em;
+    font-family: monospace;
+}
+.choose {
+    font-family: monospace; 
+    margin-bottom: em;
+    color: hsl(0, 0%, 100%);
+    font-size: large;
+}
+.hidden {
+    display: none;
+}
+.rr {
+    color: #e4e4e4;
+    background-color: transparent;
+    min-width: 50px;
+    margin: 0em 2.4em 2em 3em;
+    padding: 0.3em;
+    font-family: monospace, sans-serif;
+}
+@media screen and (min-width: 600px) {
+.header {
+    font-size: 1rem;
+}
+details {
+    padding: 0.39em;
+}
+summary {
+    padding: 0.6em;
+    font-size: large;
+}
+.score-con {
+    font-size: large;
+}
+.btn {
+    margin: 2em 5em 0em 4em;
+}
+}
