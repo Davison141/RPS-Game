@@ -86,7 +86,12 @@ details p {
 .header {
     font-size: 1rem;
 }
+.container {
+    width: 100%;
+}
 details {
+    max-width: 70%;
+    margin: auto;
     padding: 0.39em;
 }
 summary {
@@ -97,6 +102,6 @@ summary {
     font-size: large;
 }
 .btn {
-    margin: 2em 5em 0em 4em;
+    margin: 2em 5em 3em 4em;
 }
 }
